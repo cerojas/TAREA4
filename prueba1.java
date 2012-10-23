@@ -12,7 +12,7 @@ public class prueba1 implements Runnable {
 		}
 	}
 
-	public  void proceso1()
+	public synchronized void proceso1()
 	{
 
 		for (int i = 5; i >= 0; i--) {
@@ -34,7 +34,7 @@ public class prueba1 implements Runnable {
 		}
 	}
 
-	public  void proceso2()
+	public synchronized void proceso2()
 	{
 
 		for (int i = 50; i >= 0; i--) {
@@ -56,7 +56,7 @@ public class prueba1 implements Runnable {
 		}
 	}
 
-	public  void proceso3()
+	public synchronized void proceso3()
 	{
 
 		for (int i = 50; i >= 0; i--) {
